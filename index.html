@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Responsive christmas website</title>
+</head>
+<body>
+    <header class="container" id="header">
+        <a href="index.html" class="header__logo">
+            <img src="./img/santa_logo.png" alt="santa">
+            <span>Christmas</span>
+        </a>
+        <nav class="header__navigation">
+            <ul>
+                <li><a href="index.html" class="active_nav">Home</a></li>
+                <li><a href="#celebrate">Celebrate</a></li>
+                <li><a href="#gifts">Gifts</a></li>
+                <li><a href="#new">New</a></li>
+                <li><img src="./img/switch_theme.png" alt="moon" class="switch_theme" id="theme-desc"></li>
+            </ul>
+        </nav>
+        <nav class="header__nav-mobile">
+            <img src="./img/switch_theme.png" alt="switch theme icon" class="switch_theme" id="theme-mob">
+            <img src="./img/burger_open.png" alt="burger menu icon" class="burger-menu" width="16" height="16">
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <img src="./img/home.png" alt="christmas tree">
+            <div class="hero__info">
+                <h1>Merry Christmas and Happy New Year!</h1>
+                <p>Christmas and a new year is about to begin, all good wishes and successes.</p>
+                <a href="#wish" class="btn">Get Started</a>
+            </div>
+        </section>
+
+        <section class="type-of-gifts">
+            <h2>Start Giving This 
+                Christmas</h2>
+            <div class="type-of-gifts__example">
+                <div class="type-of-gifts__example-group">
+                    <img src="./img/surprise_gift.png" alt="gift">
+                    <h3>Surprise gifts</h3>
+                    <p>They are the best gifts there is.</p>
+                </div>
+                <div class="type-of-gifts__example-group">
+                    <img src="./img/ornaments.png" alt="ornaments">
+                    <h3>Ornaments</h3>
+                    <p>Give a moment to decorate</p>
+                </div>
+                <div class="type-of-gifts__example-group">
+                    <img src="./img/lots-of-love.png" alt="gift">
+                    <h3>Lots of love</h3>
+                    <p>Give away feelings that last forever</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="celebrate" id="celebrate">
+            <div class="celebrate__info">
+                <h2>Celebrate With A 
+                    Lot Of Love</h2>
+                <p>In this holidays, celebrate with much love and peace, offering many blessings to our loved ones, friends and neighbors, wishing them a good Christmas message.</p>
+                <a href="#wish" class="btn">Send Good Wishes</a>
+            </div>
+            <img src="./img/celebrate.png" alt="fireplace">
+        </section>
+
+    </main>
+
+</body>
+</html>
